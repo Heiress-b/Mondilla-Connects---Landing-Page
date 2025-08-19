@@ -1,0 +1,61 @@
+
+/* Dark theme */
+body.dark {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+/* Example for links, buttons, etc. */
+a {
+  color: #0066cc;
+}
+body.dark a {
+  color: #0066cc;
+  font-weight: 600;
+}
+
+header {
+    background-color: white;
+}
+
+body.dark header {
+    background-color: black;
+}
+
+body.dark section {
+    background-color: #0000;
+}
+
+body.dark p {
+    color: gray;
+}
+
+body.dark div#features {
+    border: 2px solid purple;
+}
+
+body.dark div#features p {
+    color: gray;
+    font-weight: 700;
+}
+
+body.dark div#features h3 {
+    color: gray;
+    font-weight: bold;
+}
+
+body.dark div.pricing p{
+    color: black;
+}
+
+body.dark div.pricing span{
+    color: black;
+}
+
+body.dark div.pricing h3{
+    color: black;
+}
+
+body.dark div.pricing-popular p{
+    color: white;
+}
