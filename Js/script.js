@@ -1,4 +1,5 @@
 const toggleBtn = document.getElementById("theme-toggle");
+const themeToggleMobile = document.getElementById('theme-toggle-mobile');
 
 toggleBtn.addEventListener("click", () => {
   document.body.classList.toggle("dark");
@@ -28,3 +29,9 @@ document.getElementById("contact-form").addEventListener("submit", function(e){
     e.preventDefault();
     alert("Message submitted! (Demo only)");
 });
+
+function toggleTheme() {
+  document.body.classList.toggle('dark');
+}
+
+themeToggleMobile.addEventListener('click', toggleTheme);
