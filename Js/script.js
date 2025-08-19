@@ -25,13 +25,15 @@ toggle.addEventListener("click", () => {
     menu.classList.toggle("hidden");
 });
 
+function toggleTheme() {
+  document.body.classList.toggle('dark');
+}
+
 document.getElementById("contact-form").addEventListener("submit", function(e){
     e.preventDefault();
     alert("Message submitted! (Demo only)");
 });
 
-function toggleTheme() {
-  document.body.classList.toggle('dark');
-}
-
 themeToggleMobile.addEventListener('click', toggleTheme);
+
+
