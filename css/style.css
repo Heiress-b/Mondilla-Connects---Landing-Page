@@ -58,3 +58,8 @@ body.dark div.pricing h3{
 body.dark div.pricing-popular p{
     color: white;
 }
+
+body.dark input,textarea {
+    background-color: transparent;
+    border: 1px solid gray;
+}
